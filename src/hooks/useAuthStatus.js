@@ -2,7 +2,7 @@ import { useEffect, useContext } from "react";
 import { AppContext } from "../context/AppContext";
 import axios from "axios";
 
-const API_URL = "https://chainvault.onrender.com/api/v1";
+const API_URL = "https://chain-vault-backend.onrender.com/api/v1";
 
 export function useAuthStatus() {
   
